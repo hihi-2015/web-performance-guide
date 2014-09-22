@@ -70,7 +70,7 @@ There are many techniques for reducing round-trip time. The most basic methods i
 
 
 #### HTTP Caching
-As we've seen so far, optimizing HTTP requests can be complex! Wouldn't it be ideal if we could skip sending requests altogether? YES WE CAN! ![](https://dl.dropboxusercontent.com/u/598519/ofa.png) Well, sort of.
+As we've seen so far, optimizing HTTP requests can be complex! Wouldn't it be ideal if we could skip sending requests altogether? YES WE CAN! Well, sort of.
 
 HTTP protocol lets us specify how long a resoource should be cached so that browsers can load cached resources locally rather than requesting them from the server. HTTP protocol defines headers such as Last-Modified, ETag, Expires, Max-Age which can be used to determine how long a resource should be cached for.
 
